@@ -67,10 +67,10 @@ void draw(){
   rect(620, 720, 20, 20);
   //pacman
   fill(255,255,0);
-  arc(25, 175, 125, 125, 0, PI+HALF_PI, PIE);
+  arc(25, 175, 125, 125, 0, PI+HALF_PI);
   // pupil
   fill(0,0,0);
-  circle(2, 150, 10);
+  ellipse(2, 150, 10, 10);
 //lightning stroke
  fill(255,255,0);
   stroke( (int) (Math.random()*256),(int) (Math.random()*256), (int) (Math.random()*256), (int) (Math.random()*256) );
